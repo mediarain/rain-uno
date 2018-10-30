@@ -10,17 +10,21 @@ title: UNO Leaderboard
 </div>
 
 <h1 class="title text-center display-4">LEADERBOARD</h1>
-
-
 {% assign players = site.data.score.players | sort: 'score' %}
+<div class="row">
+  <div class="col text-center"><h3>{{ players.last.name }} must not win!</h3></div>  
+</div>  
+
+
+
 <ul class="list-group-flush leaderboard" style="">
   {% for player in players reversed %}
       <li class="list-group-item">
         <div class="row">
-
+          <div class="col-1">#{{ forloop.index }}</div>
           <div class="col-1"><img class="gravatar" src="{{ player.email | to_gravatar }}?s=60&d=robohash" /></div>
-          <div class="col">{{ player.name }}</div>
-          <div class="col text-right">{{ player.score }}</div>
+          <div class="col-5">{{ player.name }}</div>
+          <div class="col-5 text-right">{{ player.score }}</div>
         </div>      
       </li>
   {% endfor %}
