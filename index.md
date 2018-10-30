@@ -22,7 +22,7 @@ title: UNO Leaderboard
       <li class="list-group-item">
         <div class="row">
           <div class="col-1">#{{ forloop.index }}</div>
-          <div class="col-1"><img class="gravatar" src="{{ player.email | to_gravatar }}?s=60&d=robohash" /></div>
+          <div class="col-1"><img class="gravatar" src="http://www.gravatar.com/avatar/{{ player.hash }}?s=60&amp;d=robohash" /></div>
           <div class="col-5">{{ player.name }}</div>
           <div class="col-5 text-right">{{ player.score }}</div>
         </div>      
