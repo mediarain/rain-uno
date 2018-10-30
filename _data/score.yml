@@ -1,0 +1,40 @@
+players:
+- name: Andres Reyes
+  email: armonge@gmail.com
+  score: 37
+
+- name: Allison Silva
+  email: allysilcam@gmail.com
+  score: 53
+
+- name: Jose Matus
+  email: josem@mediarain.com.ni
+  score: 51
+
+- name: Gema Sandoval
+  email: gemas@rain.agency
+  score: 6
+
+- name: Rommel Berrios
+  email: rommel.berrios93@gmail.com
+  score: 39
+
+- name: Kathya Sarria
+  email: kathyas@rain.agency
+  score: 40
+
+- name: Wuelber Castillo
+  email: wuelber.castillo@gmail.com
+  score: 4
+
+- name: Pia Miranda
+  email: piam@rain.agency
+  score: 22
+
+- name: Luis Palacios
+  email: lrpalaciosdev@gmail.com
+  score: 3
+
+- name: Juan Gutierrez
+  email: juang@mediarain.com.ni
+  score: 1
