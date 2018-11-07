@@ -12,7 +12,7 @@ title: UNO Leaderboard
 <h1 class="title text-center display-4">LEADERBOARD</h1>
 {% assign players = site.data.score.players | sort: 'score' %}
 <div class="row">
-  <div class="col text-center"><h3>{{ players.last.name }} must not win!</h3></div>  
+  <div class="col text-center"><h3>End of the tournament, November 28th. {{ players.last.name }} must not win!</h3></div>  
 </div>  
 
 
