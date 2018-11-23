@@ -8,9 +8,18 @@ title: UNO Leaderboard
 <div class="row">
   <img class="rounded mx-auto d-block" src="img/uno.svg" width="30%" height="30%">
 </div>
+{% assign players = site.data.score.players | sort: 'score' %}
+
+{% assign total = 0 %}
+{% for player in players %}
+  {% assign total = total | plus: player.score %}
+{% endfor %}
 
 <h1 class="title text-center display-4">LEADERBOARD</h1>
-{% assign players = site.data.score.players | sort: 'score' %}
+
+<div class="row">
+  <div class="col text-center"><h3>Games played: {{ total }} </h3></div>  
+</div>  
 <div class="row">
   <div class="col text-center"><h3>End of the tournament, November 28th.</h3></div>  
 </div>  
