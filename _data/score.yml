@@ -1,44 +1,24 @@
 players:
-- name: Andres Reyes
-  hash: 92c604dd5773c613f9e94aa83cdbbb06
-  score: 37
 
 - name: Allison Silva
   hash: bb5a9483c2cccaa2e3154992dc12d36f
-  score: 132
+  score: 4
 
 - name: Jose Matus
   hash: 1d385262dcfe3ed3891770bd0f46ace1
-  score: 98
+  score: 2
 
-- name: Gema Sandoval
-  hash: 1abcfcb70884e5105b250559eb3a84c5
-  score: 6
+
 
 - name: Rommel Berrios
   hash: 687aa7f2bae0e9dfabe85ec6e9eaffcb
-  score: 97
+  score: 3
 
 - name: Kathya Sarria
   hash: 2b7219f080114fdd89982067b8a751e4
-  score: 74
-
-- name: Wuelber Castillo
-  hash: 9694de0c4799a54fe4c6a496471b13c6
-  score: 4
-
-- name: Pia Miranda
-  hash: 24123b9fbfd40654c0a4cf8ffb8d5d4e
-  score: 93
-
-- name: Luis Palacios
-  hash: 0d7e8faa24bd385f7e4be299a5d497c8
-  score: 3
-
-- name: Juan Gutierrez
-  hash: d671feef39cd4948916487a28aa0ec9e
   score: 1
 
-- name: Karla
+
+- name: Tadeo Hernandez
   hash: af6b0e59ee79658ad26672bc12c6dc38
   score: 0
