@@ -6,16 +6,16 @@ players:
 
 - name: Jose Matus
   hash: 1d385262dcfe3ed3891770bd0f46ace1
-  score: 14
+  score: 15
 
 
 - name: Rommel Berrios
   hash: 687aa7f2bae0e9dfabe85ec6e9eaffcb
-  score: 15
+  score: 20
 
 - name: Kathya Sarria
   hash: 2b7219f080114fdd89982067b8a751e4
-  score: 9
+  score: 11
 
 
 - name: Tadeo Hernandez
@@ -25,8 +25,8 @@ players:
 
 - name: Pia Miranda
   hash: 24123b9fbfd40654c0a4cf8ffb8d5d4e
-  score: 2
+  score: 6
   
 - name: Carlos Pineda
   hash: afasdf0e59ee79658ad26as2bc12c6dc38
-  score: 17
+  score: 20
