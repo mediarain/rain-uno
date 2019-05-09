@@ -2,7 +2,7 @@ players:
 
 - name: Allison Silva
   hash: bb5a9483c2cccaa2e3154992dc12d36f
-  score: 59
+  score: 60
 
 - name: Jose Matus
   hash: 1d385262dcfe3ed3891770bd0f46ace1
@@ -11,16 +11,16 @@ players:
 
 - name: Rommel Berrios
   hash: 687aa7f2bae0e9dfabe85ec6e9eaffcb
-  score: 56
+  score: 58
 
 - name: Kathya Sarria
   hash: 2b7219f080114fdd89982067b8a751e4
-  score: 45
+  score: 47
 
 
 - name: Tadeo Hernandez
   hash: af6b0e59ee79658ad26672bc12c6dc38
-  score: 45
+  score: 46
   
 
 - name: Pia Miranda
@@ -37,4 +37,4 @@ players:
   
 - name: Enrique Palacios
   hash: afasdf0e59ee79658ad26as2bc12c6dc38
-  score: 7
+  score: 8
