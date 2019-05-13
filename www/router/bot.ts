@@ -38,7 +38,7 @@ async function counterIntent(req, res) {
   let number =  _.get(req, "body.queryResult.parameters.number");
   const operation =  _.get(req, "body.queryResult.parameters.operation");
 
-  const playerFound = await storage.get({userId : player});
+  const playerFound = await storage.get({ userId : player });
 
   number = _.toNumber(number);
   if ((!playerFound && !number && !operation) || number <= 0 || number > 10) {
@@ -58,8 +58,9 @@ async function pointAssignment(playerFound, playerId, number, operation) {
 
   const operationText = operation === "add" ? "added" : "removed";
   const pointText = number === 1 ? "point" : "points";
+  const fromConnector =  operation === "add" ? "to": "from";
 
-  return `ok got it!, I ${operationText} ${number} ${pointText} from ${playerFound.name || playerId}`;
+  return `ok got it!, I ${operationText} ${number} ${pointText} ${fromConnector} ${playerFound.name || playerId}`;
 }
 async function leaderboardStatement(players) {
   const leaderboard = players
