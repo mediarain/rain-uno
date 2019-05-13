@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+      .leaderboard{font-size:2em}body{background-color:#CF0018;color:white;font-family:'Fredoka One', cursive}h1{padding:50px}.list-group-flush .list-group-item{border-top:0}.list-group-item{background-color:#CF0018;border:1px solid white}.list-group-item:hover{background-color:#fff;color:#CF0018}
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <title>UNO Leaderboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <img class="rounded mx-auto d-block" src="//uno-rain-production.s3.amazonaws.com/logo.svg" width="30%" height="30%">
+
+      </div>
+
+
+      <h1 class="title text-center display-4">LEADERBOARD</h1>
+
+      <div class="row">
+        <div class="col text-center"><h3>Games played: <%= total %> </h3></div>
+      </div>
+      <div class="row">
+        <div class="col text-center"><h3>End of the tournament, November 28th.</h3></div>
+      </div>
+
+      <div class="row">
+        <div class="col text-center"><h3><%= bestPlayer.name %> must not win!</h3></div>
+      </div>
+
+      <ul class="list-group-flush leaderboard" style="">
+        <% players.forEach(function(player, index){ %>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-1">#<%= index + 1 %></div>
+                <!-- <div class="col-1"><img class="gravatar" src="http://www.gravatar.com/avatar/{{ player.userId }}?s=60&amp;d=robohash" /></div> -->
+                <div class="col-6"> <%= player.name %></div>
+                <div class="col-5 text-right"><%= player.score %></div>
+              </div>
+            </li>
+        <% }) %>
+      </ul>
+    </div>
+  </body>
+</html>

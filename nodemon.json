@@ -1,0 +1,7 @@
+{
+  "ignore": [".git/*", "node_modules/**/node_modules/*", "dist/*", "schedule", "www/js/*"],
+  "verbose": true,
+  "ext": "json,ts,ejs",
+  "exec": "npm start",
+  "delay": "1000"
+}
